@@ -6,7 +6,8 @@ import android.os.Bundle;
 /**
  * ViewPage+Fragment优化
  *
- * ViewPage会预加载第二个页面，取消预加载页面的方法:
+ * ViewPage会预加载第二个页面，
+ * 取消预加载页面的方法:
  * Fragment的setUserVisibleHint和getUerVisibleHint方法
  */
 
