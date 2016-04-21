@@ -1,5 +1,5 @@
 # MyAndroidHelper
 demo for Android develop
 
-1.ViewPager+FragmentÓÅ»¯ 
+1.ViewPager+Fragmentä¼˜åŒ– 
 
