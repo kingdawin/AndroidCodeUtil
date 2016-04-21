@@ -8,12 +8,12 @@ import android.os.Bundle;
  *
  * ViewPage会预加载第二个页面，
  * 取消预加载页面的方法:
- * Fragment的setUserVisibleHint和getUerVisibleHint方法
+ * 用Fragment的setUserVisibleHint和getUerVisibleHint方法设置|获取Fragment可见状态
  */
 
 public abstract class BaseFragment extends Fragment {
     //fragment当前是否可见
-    private boolean isVisible;
+    public boolean isVisible;
     //设置Fragment可见或隐藏
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
@@ -34,6 +34,6 @@ public abstract class BaseFragment extends Fragment {
     }
 
     protected void onInVisible(){}
-    //子类实现懒加载
+    //子类实现懒加载。当Fragment对用户可见是在lazyLoad中加载数据
     protected abstract void lazyLoad();
 }
