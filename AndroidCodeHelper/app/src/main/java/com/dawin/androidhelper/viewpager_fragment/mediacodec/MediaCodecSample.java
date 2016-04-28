@@ -13,7 +13,7 @@ import java.nio.ByteBuffer;
  */
 public class MediaCodecSample {
 
-    byte[] decodeData = new byte[1024 * 1024 * 20];// 20m
+    byte[] decodeData = new byte[1024 * 1024 * 2];// 2MB
     MediaCodec mMediaCodec;
     MediaExtractor mediaExtractor;
     MediaFormat mMediaFormat;
