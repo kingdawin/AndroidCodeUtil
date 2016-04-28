@@ -1,4 +1,4 @@
-package com.dawin.androidhelper.viewpager_fragment.mediacodec;
+package mediacodec;
 
 import android.media.MediaCodec;
 import android.media.MediaExtractor;
