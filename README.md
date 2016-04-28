@@ -1,5 +1,6 @@
 # MyAndroidHelper
 demo for Android develop
 
-1.ViewPager+Fragment优化 
+- ViewPager+Fragment优化 
+- MediaCodec解码的代码示例
 
